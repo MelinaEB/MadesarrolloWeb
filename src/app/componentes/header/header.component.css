@@ -1,0 +1,89 @@
+.container-fluid {
+    background-color: rgb(32, 30, 30);
+    height: 50px;
+}
+
+.header {
+    background-color: rgb(32, 30, 30);
+}
+
+.logo {
+    height: 100px;
+    margin-left: 20%;
+}
+
+.nav-link {}
+
+@media (min-width: 1220.98px) {
+    .menu {
+        margin-left: 25%;
+    }
+}
+
+@media (max-width:1235.98px) {
+    .menu {
+        margin-left: 20%;
+    }
+}
+
+@media (min-width:1235.98px) {
+    .menu {
+        margin-left: 30%;
+    }
+}
+
+@media (min-width:1345.98px) {
+    .menu {
+        margin-left: 45%;
+    }
+}
+
+@media (min-width: 1380.98px) {
+    .menu {
+        margin-left: 45%;
+    }
+}
+
+@media (min-width: 1610.98px) {
+    .menu {
+        margin-left: 55%;
+    }
+}
+
+@media (max-width: 990px) {
+    .navbar-toggler {
+        margin-right: 5%;
+    }
+}
+
+.trans {
+    color: azure;
+}
+
+.item {
+    padding: 15%;
+}
+
+.nav-link {
+    color: #1190cb !important;
+}
+
+.nav-link:hover {
+    color: rgb(83, 196, 230) !important;
+}
+
+.drop {
+    background-color: rgb(26, 26, 30);
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    color: #1190cb;
+}
+
+.dropdown-item:active {
+    color: #fff;
+}

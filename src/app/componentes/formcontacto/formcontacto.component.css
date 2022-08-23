@@ -1,0 +1,62 @@
+.container-fluid {
+    background-color: rgb(32, 30, 30);
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border: 2px solid #36A0FF;
+    background-color: rgb(61, 60, 71);
+    color: antiquewhite;
+}
+
+.form-control:hover {
+    background-color: rgb(56, 49, 49);
+}
+
+.form-control:focus {
+    background: rgb(4, 4, 4);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgb(37, 37, 37) 100%);
+    border: 3px solid #2188e3;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #dadfe5;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #dadfe2;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #dadfe2;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #dadfe2;
+}

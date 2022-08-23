@@ -1,0 +1,47 @@
+.container-fluid {
+    padding: 10px;
+    padding-top: 3%;
+    background-color: rgb(32, 30, 30);
+}
+
+.bordec {
+    height: 100%;
+}
+
+h4 {
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    padding: 2%;
+}
+
+p {
+    padding: 10px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.foto {
+    height: 25%;
+}
+
+.candado {
+    width: 35%;
+}
+
+
+/*animacion*/
+
+.izq {
+    transition: .5s;
+    max-height: 400PX;
+}
+
+.izq:hover {
+    transform: rotatey(25deg);
+}
+
+@media (max-width:1111px) {
+    .izq {}
+    .foto {}
+}
